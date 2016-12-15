@@ -9,7 +9,7 @@ public class BookBasketShould {
 	@Test
 	public void return_price_for_one_copy_of_book() {
 		BookBasket basket = new BookBasket();
-		assertEquals(8, basket.getPrice());
+		assertEquals(8, basket.getPrice(),0);
 	}
 
 }
